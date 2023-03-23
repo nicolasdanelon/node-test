@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>static</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <h1>nodejs</h1>
+    <h2>search</h2>
+    <form action="/search" method="get">
+        <fieldset>
+            <label for="q">
+                Search
+            </label>
+            <input type="text" name="q" id="q">
+
+            <input type="submit" value="🔍" style="border: 0">
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <h2>login</h2>
+    <form action="/login" method="post">
+        <fieldset>
+            <label for="email">
+                e-mail
+            </label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <label for="password">
+                password
+            </label>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Login!">
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+html,
+html,
+* {
+    background-color: black;
+    color: #0f0;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+fieldset {
+    margin: 10px
+}
