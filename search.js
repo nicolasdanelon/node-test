@@ -3,6 +3,7 @@ const search = (req, res) => {
     const query = JSON.stringify(req.query.q);
     console.log(`[INFO] Searching for ${query || null}`);
 
+
     if (query == "") {
         console.log("[ERRO] No valid search parameter");
         return res.send({ error: "no valid search parameter" }).status(404);
